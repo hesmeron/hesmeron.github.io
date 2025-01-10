@@ -2845,10 +2845,10 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #40739e;
+  --bs-btn-bg: #353b48;
   --bs-btn-border-color: #1D809F;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #196d87;
+  --bs-btn-hover-bg: #2f3640;
   --bs-btn-hover-border-color: #17667f;
   --bs-btn-focus-shadow-rgb: 63, 147, 173;
   --bs-btn-active-color: #fff;
@@ -2967,7 +2967,7 @@ textarea.form-control-lg {
   --bs-btn-bg: #212529;
   --bs-btn-border-color: #212529;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #424649;
+  --bs-btn-hover-bg: #2f3640;
   --bs-btn-hover-border-color: #373b3e;
   --bs-btn-focus-shadow-rgb: 66, 70, 73;
   --bs-btn-active-color: #fff;
@@ -10986,7 +10986,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #e84118;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
@@ -11099,7 +11099,7 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(194, 54, 22,0.8);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
@@ -11128,4 +11128,10 @@ footer.footer .social-link:hover {
   font-family: "Roboto Mono", serif;
   font-weight: 200;
   font-style: normal;
+}
+
+.img-portfolio{
+    object-fit: cover;
+    height: 300px;
+    width: 100%
 }
