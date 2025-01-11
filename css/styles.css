@@ -11135,3 +11135,6 @@ footer.footer .social-link:hover {
     height: 300px;
     width: 100%
 }
+.about-picture {
+    object-fit: cover
+}

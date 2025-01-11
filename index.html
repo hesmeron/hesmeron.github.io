@@ -21,18 +21,6 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Services</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
             <div class="container px-4 px-lg-5 text-center">
@@ -47,17 +35,30 @@
         <section class="content-section bg-light" id="about">
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
+                    <div class="col-lg-10 mb-5">
                         <h2>Who am I</h2>
-                        <p class="lead mb-5">
-                            I'm a programmer with <strong>almost 5 years</strong> of professional experience. I have worked whith many different technologies including development for <strong> mobile devices and consoles and VR headsets</strong>. Many of those project required quite an agressive optimization which lead me to develop a set of skills in optimization.
-                        </p>                        
-                        <p class="lead mb-5">
-                            I revel in solving complex computational problems, like physics simulations, renderingvery high numbers of objects and unit AI. I make use ovf parallelized compution using unity Job system, burst, or compute shaders. 
-                        </p>
-                        <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
                     </div>
-                </div>
+                    <div class="row gx-0">
+                        <div class="col-lg-6">
+                            <img class="about-picture" width=80% height=70% src="assets/img/bg_bialjam.jpg" alt="..." />
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="lead my-auto">
+                                I'm a programmer with <strong>almost 5 years</strong> of professional experience. I have worked whith many different technologies including development for <strong> mobile devices and consoles and VR headsets</strong>. Many of those project required quite an agressive optimization which lead me to develop a set of skills in optimization.
+                            </p>      
+                        </div>
+                    </div>                    
+                    <div class="row gx-0">
+                        <div class="col-lg-6">
+                            <p class="lead">
+                                Privately I'm also an enthusiatic participant in many game jams, and over the years I even got some trophies to show for it.  Passionate about my craft, I always have some interesting projects on the back-burner
+                            </p>      
+                        </div>
+                       <div class="col-lg-6">
+                            <img class="about-picture" width=80% height=70% src="assets/img/bg_bialjam.jpg" alt="..." />
+                        </div>
+                    </div>
+            </div>
             </div>
         </section>
         <!-- Services-->
@@ -71,39 +72,35 @@
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-magnifying-glass-chart"></i></span>
                         <h4><strong>Profiling</strong></h4>
-                        <p class="text-faded mb-0">Anylysing GPU, CPU and  Memory in order to accurately determin the cause of your performace woes</p>
+                        <p class="text-faded mb-0">Analysing GPU, CPU and  Memory in order to accurately determin the cause of your performace woes</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-clock"></i></span>
                         <h4><strong>Estimating</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+                        <p class="text-faded mb-0">Determining achievable minimal system requirements and estimate amount of hours needed to accomplish it</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-gauge-high"></i></span>
                         <h4><strong>Optimizing</strong></h4>
                         <p class="text-faded mb-0">
-                            Millions of users
-                            <i class="fas fa-heart"></i>
-                            Start Bootstrap!
+                            Doing whatever  needs to be done in order to increase perfomrance including writing shaders, modifying rendering pipelines, baking lights, replacing post process effects etc.
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="fa-solid fa-code"></i></span>
                         <h4><strong>Developing</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
+                        <p class="text-faded mb-0">Developing brand new, performant graphical and gameplay features  </p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Callout-->
         <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
+            <div class="container px-4 px-lg text-center">
                 <h2 class="mx-auto mb-5">
-                    Welcome to
-                    <em>your</em>
-                    next website!
+                    Ready for performance <strong>boost</strong>?
                 </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+                <a class="btn btn-primary btn-xl" href="#contact">Contact us</a>
             </div>
         </section>
         <!-- Portfolio-->
@@ -119,7 +116,7 @@
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Gravity simulation</div>
-                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                    <p class="mb-0">A simp e gravity simulation based on precalculated accelaration matrix</p>
                                 </div>
                             </div>
                             <img class="img-portfolio" src="assets/img/portfolio-1.jpg" alt="..." />
@@ -130,7 +127,7 @@
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Destructable 2D terrain</div>
-                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                    <p class="mb-0">A 2D destructable terrain based on quad trees similiar in function to one used in Worms Armaggedon</p>
                                 </div>
                             </div>
                             <img class="img-portfolio" src="assets/img/portfolio-2.jpg" alt="..." />
@@ -141,7 +138,7 @@
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Slicing meshes</div>
-                                    <p class="mb-0">Creating meshes</p>
+                                    <p class="mb-0">Slicing meshes using a plane</p>
                                 </div>
                             </div>
                             <img class="img-portfolio" src="assets/img/portfolio-3.jpg" alt="..." />
@@ -152,7 +149,7 @@
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Creating meshes</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                                    <p class="mb-0">Creating meshes from script</p>
                                 </div>
                             </div>
                             <img class="img-portfolio" src="assets/img/portfolio-4.jpg" alt="..." />
@@ -162,7 +159,7 @@
             </div>
         </section>
         <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
+        <section class="content-section bg-primary text-white" id="contact">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mb-4">Known also as Sir Quad</h2>
                 <div class="row gx-4 ">
@@ -170,7 +167,7 @@
                         I'm working with Knigts of U, so if after everyting you have red hear you want to use my services kindly contact their sales team at <b>contact@theknightsofu.com</b> and ask for <b>Sir Quad</b>
                     </div>
                     <div class="col-lg-6">
-                    <img src="../assets/img/knights_logo.jpg" class="" alt="knights_logo.jpg" width = 50%>
+                    <img src="../assets/img/knights_logo.jpg" class="" alt="knights_logo.jpg" width = 50% height>
                     </div>
                 </div>
             </div>
